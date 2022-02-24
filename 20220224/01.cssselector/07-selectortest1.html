@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1 {color:blue;}
+        h1 + p {background-color:salmon;}
+        p > span {color : blueviolet;}
+        .first {border : 2px solid purple;}
+        .first > p {color : green;}
+        .second {border : 2px solid green}
+        .second > h2{color : rgb(238, 99, 123);}
+        .third{
+            color : pink;
+            border : 2px solid yellow;
+        }
+        * {margin: 0;}
+        #container {width: 900px;}
+       
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1>프로그램 언어들</h1>
+        <p>프로그램 언어들에 대해서 <span>차근차근</span> 설명해드리겠습니다.</p>
+        <ul>
+            <li class="first">
+                <h2>자바</h2>
+                <p>웹/앱 개발이 모두 됨</p>
+            </li>
+            <li class="second">
+                <h2>파이썬</h2>
+                <p>머신러닝 등에 특화</p>
+            </li>
+            <li class="third">
+                <h2>C++</h2>
+                <p>게임개발에 특화</p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
