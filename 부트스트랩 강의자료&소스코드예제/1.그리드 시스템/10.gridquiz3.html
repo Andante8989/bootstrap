@@ -8,10 +8,10 @@
             padding:20px;
             border-radius:15px;
         }
-        .menu {
+        .ulist{
             background-color: grey;
             border-radius:15px;
-            
+            list-style:none;
         }
     </style>
     <meta charset="UTF-8">
@@ -21,14 +21,21 @@
 </head>
 <body>
     <div class="container">
-        <div class="row text-center title">
-            <h2>그리드 시스템을 이용한 레이아웃 offset 1 적용시 모습</h2>
+        <div class="row">
+            <div class="col-md-12 text-center title">
+                <h2>그리드 시스템을 이용한 레이아웃 offset 1 적용시 모습</h2>
+            </div>
         </div>
         <div class="row">
-            <div class="col-md-4 menu">
-                <p>menu 1menu 2menu 3menu 4</p>
+            <div class="col-md-3 menu">
+                <ul class="ulist">
+                    <li>menu1</li>
+                    <li>menu2</li>
+                    <li>menu3</li>
+                    <li>menu4</li>
+                </ul>
             </div>
-            <div class="col-md-7 offset-md-1">
+            <div class="col-md-8 offset-md-1">
                 <p>
                 들어갈내용 들어갈내용 들어갈내용 들어갈내용 들어갈내용
                 들어갈내용 들어갈내용 들어갈내용 들어갈내용 들어갈내용
@@ -46,8 +53,10 @@
             </div>
         </div>
         <hr/>
-        <div class="row text-center">
-            <p>여기가 푸터가 들어가는 곳입니다.</p>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>여기가 푸터가 들어가는 곳입니다.</p>
+            </div>
         </div>
     </div> <!-- div.container -->
 </body>
